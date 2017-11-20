@@ -1,0 +1,260 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    background: #00bcd4;
+}
+
+html.fp-enabled, .fp-enabled body {
+    overflow: hidden !important;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#fp-nav ul li .fp-tooltip.left {
+    margin-top: 2px;
+}
+
+.logo {
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 5px;
+    width: 150px;
+    z-index: 10;
+}
+
+.shade {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+
+.emplooyee-col {
+    margin: 20px 30px;
+    text-align: center;
+}
+
+.emplooyee-col h3 {
+    font-size: 20px;
+    margin: 15px 0 10px 0;
+    color: white;
+}
+
+.emplooyee-col img {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background: white;
+}
+
+.section-outer {
+    position: relative;
+    z-index: 2;
+    padding: 0 150px;
+}
+
+.flex {
+    display: flex;
+}
+
+#team .flex {
+    justify-content: center;
+}
+
+#team {
+    background: cadetblue;
+    background-position: center;
+}
+
+#description {
+    background: url("../images/1.jpg") no-repeat;
+    background-position: center;
+}
+
+
+
+#description .shade {
+    background: rgba(0,0,0,0.6);
+}
+
+#tech {
+    overflow: hidden;
+}
+
+#tech .flex {
+    flex-direction: column;
+    align-items: center;
+}
+
+#model {
+    background: cadetblue;
+}
+
+#model .flex {
+    justify-content: center;
+}
+
+.icon-monet {
+    margin: 30px 70px;
+}
+
+.icon-monet img {
+    width: 100px;
+}
+
+.model-icon1 img {
+    width: 250px;
+    position: absolute;
+    right: -44px;
+    bottom: 20px;
+}
+.model-icon2 img {
+    width: 150px;
+    position: absolute;
+    left: -44px;
+    top: 5px;
+}
+
+#tech h1 {
+    color: black;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.tech-ico img {
+    width: 100px;
+    height: auto;
+    margin: 15px;
+}
+
+#tech .section-outer {
+    float: left;
+}
+
+#tech .google-img {
+    position: relative;
+    float: right;
+    margin-right: 50px;
+}
+
+#tech .google-img img {
+    width: 250px;
+    position: absolute;
+    right: 0;
+}
+#tech .google-img img.one-google {
+    right: 224px;
+    top: 85px;
+    z-index: 2;
+}
+
+#fp-nav ul li:nth-child(3) > a.active + .fp-tooltip.left {
+    color: black;
+}
+
+#fp-nav ul li:nth-child(7) > a.active + .fp-tooltip.left {
+    color: black;
+}
+
+#fp-nav ul li:nth-child(9) > a.active + .fp-tooltip.left {
+    color: black;
+}
+
+#fp-nav ul li:last-child > a.active + .fp-tooltip.left {
+    color: black;
+}
+
+#global {
+    background: url("../images/shutterstock_175007894.jpg") no-repeat;
+    background-size: cover;
+}
+
+#unique {
+    background: url("../images/mockup_smartphone_sadesign.jpg") no-repeat;
+    background-size: cover;
+}
+
+#audit {
+    background: cadetblue;
+}
+
+.fond span {
+    display: block;
+    margin-top: 10px;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+#marketing h1 {
+    color: black;
+}
+
+.marketing-img {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 350px;
+}
+
+.marketing-img  img{
+    width: 100%;
+}
+
+.app-ico img {
+    width: 100%;
+}
+
+#audit .flex {
+    justify-content: center;
+}
+
+.app-ico {
+    width: 150px;
+    margin: 20px 30px;
+    text-align: center;
+}
+
+.app-ico h3 {
+    font-size: 24px;
+    margin-top: 8px;
+    color: white;
+}
+
+#end {
+    background: url(../images/bye.svg) no-repeat;
+    background-size: 100% 107%;
+    background-position: 0 12px;
+}
+
+#end h1 {
+    color: black;
+    margin-top: 80px;
+}
+
+#invest h1 {
+    color: black;
+}
+
+#invest .section-outer {
+    text-align: center;
+}
+
+#invest .section-outer  img {
+    width: 200px;
+    margin-top: 25px;
+}
+
